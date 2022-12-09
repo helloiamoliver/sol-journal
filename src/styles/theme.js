@@ -3,7 +3,7 @@
 // and dark are possibile
 const theme = {
   LIGHT: {
-    name: "DARK",
+    name: "LIGHT",
     colors: {
       logo: "#EAEAEA",
       primary: "#F3F6F8",
@@ -18,7 +18,7 @@ const theme = {
     },
   },
   DARK: {
-    name: "LIGHT",
+    name: "DARK",
     colors: {
       logo: "#344157",
       primary: "#2E3136",
