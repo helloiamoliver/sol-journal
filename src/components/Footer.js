@@ -39,16 +39,16 @@ const Footer = ({ theme }) => (
     </div>
     <div>
       <FooterAnchor
-        href="https://github.com/gillkyle/sol-journal"
+        href="https://intranet.helloiamoliver.co.uk/"
         rel="target noopener"
         target="_blank"
       >
-        View on GitHub
+        Return to Intranet
       </FooterAnchor>
       <FooterLink to="terms">Terms of Service</FooterLink>
       <FooterLink to="privacy">Privacy Policy</FooterLink>
     </div>
-    <div>&copy; 2019</div>
+    <div>&copy; 2022</div>
   </FooterBlock>
 )
 
