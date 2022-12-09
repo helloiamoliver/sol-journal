@@ -3,21 +3,6 @@
 // and dark are possibile
 const theme = {
   LIGHT: {
-    name: "LIGHT",
-    colors: {
-      logo: "#344157",
-      primary: "#2E3136",
-      secondary: "#999",
-      tertiary: "#C4C4C4",
-      quarternary: "#EAEAEA",
-      headerBackground: "#FAFBFC",
-      bodyBackground: "#FFF",
-      inputBackground: "#FAFBFC",
-      hover: "hsla(233, 5%, 31%, 0.12)",
-      button: "#f2f3f5",
-    },
-  },
-  DARK: {
     name: "DARK",
     colors: {
       logo: "#EAEAEA",
@@ -30,6 +15,21 @@ const theme = {
       inputBackground: "#272f3d",
       hover: "hsla(233, 100%, 96%, 0.12)",
       button: "#464d5d",
+    },
+  },
+  DARK: {
+    name: "LIGHT",
+    colors: {
+      logo: "#344157",
+      primary: "#2E3136",
+      secondary: "#999",
+      tertiary: "#C4C4C4",
+      quarternary: "#EAEAEA",
+      headerBackground: "#FAFBFC",
+      bodyBackground: "#FFF",
+      inputBackground: "#FAFBFC",
+      hover: "hsla(233, 5%, 31%, 0.12)",
+      button: "#f2f3f5",
     },
   },
 }
