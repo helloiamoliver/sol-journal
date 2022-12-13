@@ -243,7 +243,7 @@ class Day extends React.Component {
           disableNext={isAfter(currentDay, startOfYesterday())}
         />
         <EntryHeading>
-          <JournalHeading>Record thoughts about the day</JournalHeading>
+          <JournalHeading>Record thoughts about your day</JournalHeading>
           <EntryInfo>
             {online && (
               <SavedMessaged>
