@@ -193,7 +193,7 @@ class Day extends React.Component {
       `${str.slice(0, pos)}${sub}${str.slice(pos)}`
     const newText = insertAt(text, format(new Date(), "hh:mm "), cursorIndex)
     this.setState({
-      text: time,
+      text: newText,
     })
     entryTextArea.focus()
     this.saveText(newText, year, month, day)
@@ -242,14 +242,6 @@ class Day extends React.Component {
           next={format(addDays(currentDay, 1), "/YYYY/MM/DD")}
           disableNext={isAfter(currentDay, startOfYesterday())}
         />
-        <Buttons>
-          <Icon
-            name="Clock"
-            label="Quick Add Time"
-            labelRight
-            onClick={() => this.onInsertTime()}
-          />{" "}
-        </Buttons>
         <EntryHeading>
           <JournalHeading>Record thoughts about the day</JournalHeading>
           <EntryInfo>
@@ -289,6 +281,14 @@ class Day extends React.Component {
           </div>
         ) : (
           <>
+              <Buttons>
+                <Icon
+                  name="Clock"
+                  label="Quick Add Time"
+                  labelRight
+                  onClick={() => this.onInsertTime()}
+                />{" "}
+              </Buttons>
             <JournalEntryArea
               id="entry-text-area"
               autoFocus={true}
