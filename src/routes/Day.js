@@ -299,7 +299,14 @@ class Day extends React.Component {
                 animation: ${fadeKeyFrames} 0.2s ease-in;
               `}
             />
-
+            <Buttons>
+              <Icon
+                name="Clock"
+                label="Quick Add Time"
+                labelRight
+                onClick={() => this.onInsertTime()}
+              />{" "}
+            </Buttons>
           </>
         )}
       </>
