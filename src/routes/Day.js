@@ -191,7 +191,8 @@ class Day extends React.Component {
     const { year, month, day } = this.props
     const insertAt = (str, sub, pos) =>
       `${str.slice(0, pos)}${sub}${str.slice(pos)}`
-    const newText = insertAt(text, format(new Date(), "hh:mm "), cursorIndex)
+    //const newText = insertAt(text, format(new Date(), "hh:mm "), cursorIndex)
+    const time = date.toLocaleString('en-US', {hour12: false,})
     this.setState({
       text: newText,
     })
