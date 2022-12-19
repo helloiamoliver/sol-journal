@@ -251,7 +251,7 @@ class Day extends React.Component {
           />{" "}
         </Buttons>
         <EntryHeading>
-          <JournalHeading>Record thoughts about your day</JournalHeading>
+          <JournalHeading>Record thoughts about the day</JournalHeading>
           <EntryInfo>
             {online && (
               <SavedMessaged>
