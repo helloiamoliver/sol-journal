@@ -5,7 +5,7 @@ import theme from "styles/theme"
 // create an app-wide context for the theme being used as
 // well as a function to toggle it back and forth
 const ThemeTogglerContext = React.createContext({
-  themeName: "LIGHT",
+  themeName: "DARK",
   toggle: () => {},
 })
 
@@ -13,7 +13,7 @@ class ThemeToggler extends React.Component {
   state = {
     themeName:
       new Date().getHours() >= 7 && new Date().getHours() <= 21
-        ? "LIGHT"
+        ? "DARK"
         : "DARK",
   }
 
