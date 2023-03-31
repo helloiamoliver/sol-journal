@@ -117,7 +117,7 @@ const SimpleNav = ({ authUser, theme }) => (
     <Nav>
       <LogoSection onClick={() => navigate("/")}>
         <Logo color={theme.colors.logo} />
-        <LogoText color={theme.colors.primary}>SOL</LogoText>{" "}
+        <LogoText color={theme.colors.primary}>ORH</LogoText>{" "}
         <LogoText color={theme.colors.secondary}>JOURNAL</LogoText>
       </LogoSection>
       <NavIcons>
