@@ -36,7 +36,7 @@ module.exports = {
         short_name: `ORH Journal`,
         start_url: `/app`,
         background_color: `#FFF`,
-        theme_color: `#FFF`,
+        theme_color: `#272f3d`,
         display: `standalone`,
         icon: `src/img/splash.png`,
       },
