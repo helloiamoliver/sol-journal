@@ -68,7 +68,7 @@ const Navbar = ({ authUser, theme, toggleTheme }) => (
     <Nav>
       <LogoSection onClick={() => navigate("/app")}>
         <Logo color={theme.colors.logo} />
-        <LogoText color={theme.colors.primary}>SOL</LogoText>{" "}
+        <LogoText color={theme.colors.primary}>ORH</LogoText>{" "}
         <LogoText color={theme.colors.secondary}>JOURNAL</LogoText>
       </LogoSection>
       <NavIcons>
