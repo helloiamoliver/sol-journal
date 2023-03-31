@@ -32,8 +32,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Sol Journal`,
-        short_name: `Sol Journal`,
+        name: `ORH Journal`,
+        short_name: `ORH Journal`,
         start_url: `/app`,
         background_color: `#FFF`,
         theme_color: `#FFF`,
