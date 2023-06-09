@@ -184,6 +184,7 @@ class Day extends React.Component {
     }, AUTOSAVE_DELAY)
   }
 
+  
   onInsertTime = () => {
     const entryTextArea = document.getElementById("entry-text-area")
     const cursorIndex = entryTextArea.selectionStart
